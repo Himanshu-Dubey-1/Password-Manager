@@ -1,8 +1,12 @@
-# React + Vite
+# Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here you can save all your websites, username, and passsword
 
-Currently, two official plugins are available:
+Used React js and Tailwind for functionality and UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Here's How It Works
+* Took site, username, password as input 
+* Onclick Button to save input in an array in the form of objects
+* Using map function displayed all the saved passwords
+* Provides Copy, Edit, Delete functionality
+* Saves all Passwords in browsers local storage
